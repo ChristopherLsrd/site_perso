@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import Navigation from '../Components/Navigation';
-import photo from '../assets/img/circle_photo.jpg'
+import photo from '../assets/img/circle_photo.jpg';
+import cv from '../assets/files/CV_ChristopherLessirard.pdf';
 import Contact from '../Components/Contact';
 
 
@@ -22,7 +23,7 @@ const Home = () => {
                     <p className="">Étudiant en licence professionnelle MiAR à l'IUT de Nantes, agé de 22 ans, venant de Saint-Malo et voulant travailler dans le développement logiciel. J'aime lire, la musique, le football et les jeux vidéos. </p>
                     <button type="button" className="button is-large">
 
-                        <a href="./assets/files/CV_ChristopherLessirard.pdf">
+                        <a href={cv}>
                             <span className="icon">
                                 <i className="fa-solid fa-file-pdf"></i>
                             </span>

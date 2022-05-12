@@ -39,19 +39,24 @@ const Navigation = () => {
                 <div id="test" className={` navbar-menu  ${isActive ? "is-active" : ""}`}>
                     <div className='navbar-end'>
                         <NavLink to={"/"} className="navbar-item">
+                            <i className="fa-solid fa-house"></i>
                             <p>Accueil</p>
                         </NavLink>
                         <NavLink to={"/school"} className="navbar-item">
+                            <i className="fa-solid fa-graduation-cap"></i>
                             <p>Formations</p>
                         </NavLink>
                         <NavLink to={"/experiences"} className="navbar-item">
+                            <i className="fa-solid fa-briefcase"></i>
                             <p>Expériences</p>
                         </NavLink>
                         <NavLink to={"/projects"} className="navbar-item">
+                            <i className="fa-solid fa-diagram-project"></i>
                             <p>Projets</p>
                         </NavLink>
-                        <NavLink to={"/about"} className="navbar-item">
-                            <p>A propos</p>
+                        <NavLink to={"/skills"} className="navbar-item">
+                            <i className="fa-solid fa-gear"></i>
+                            <p>Compétences</p>
                         </NavLink>
                     </div>
 

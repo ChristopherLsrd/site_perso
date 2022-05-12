@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import Navigation from '../Components/Navigation';
 
 
-const About = () => {
+const Skills = () => {
     return (
         <div>
 
@@ -12,4 +12,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Skills;
