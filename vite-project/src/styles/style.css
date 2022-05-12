@@ -1,3 +1,35 @@
 hr {
     margin: 10px;
 }
+
+li::marker {
+    content: "▶ ";
+
+}
+
+figure:hover div {
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+figure:hover div a {
+    color: white;
+    text-decoration: underline;
+}
+
+figure div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    opacity: 0;
+    transform: scaleY(0);
+    transition: 0.3s;
+}

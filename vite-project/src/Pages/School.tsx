@@ -118,15 +118,6 @@ const School = () => {
 
                 </div>
 
-
-
-
-
-
-
-
-
-
             </div >
 
             <div className='hero-foot'>
